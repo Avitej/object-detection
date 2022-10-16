@@ -6,6 +6,7 @@ function preload() {
 function setup() {
     canvas = createCanvas(620, 420);
     canvas.center();
+    
 }
 function draw() {
     image(img, 0, 0, 0, 640, 420);
@@ -14,4 +15,10 @@ function draw() {
     noFill();
     stroke("FF0000");
     rect(30, 60, 450, 350);
+
+    fill("#FF0000");
+    text("cat", 320, 120);
+    noFill();
+    stroke("#FF0000");
+    rect(300, 90, 270, 320);
 }
